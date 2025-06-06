@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luanda, Angola",
+        "temperature": 26.8,
+        "temperatureText": "26.8°C",
+        "humidity": 78,
+        "windSpeed": 12.3,
+        "windDirection": "SW",
+        "condition": "Partly cloudy",
+        "isMainCity": true,
+        "icon": "🏛️",
+        "description": "Capital and largest city of Angola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.2343, -8.8368]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benguela, Angola",
+        "temperature": 25.2,
+        "temperatureText": "25.2°C",
+        "humidity": 82,
+        "windSpeed": 15.1,
+        "windDirection": "W",
+        "condition": "Clear",
+        "isMainCity": false,
+        "icon": "🏖️",
+        "description": "Coastal port city south of Luanda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.4055, -12.5763]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huambo, Angola",
+        "temperature": 22.1,
+        "temperatureText": "22.1°C",
+        "humidity": 65,
+        "windSpeed": 8.7,
+        "windDirection": "E",
+        "condition": "Sunny",
+        "isMainCity": false,
+        "icon": "🏔️",
+        "description": "Highland city in central Angola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.7393, -12.7756]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lobito, Angola",
+        "temperature": 25.7,
+        "temperatureText": "25.7°C",
+        "humidity": 79,
+        "windSpeed": 13.8,
+        "windDirection": "SW",
+        "condition": "Partly cloudy",
+        "isMainCity": false,
+        "icon": "🚢",
+        "description": "Important port city on the Atlantic coast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.5347, -12.3645]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "regionName": "Luanda Weather Region",
+        "averageTemperature": "24.95°C",
+        "totalCities": 4,
+        "weatherSource": "CALL__CITY_WEATHER_PROMPT",
+        "polygonMethod": "AgroPolygons",
+        "generatedAt": "2025-06-05T12:00:00Z",
+        "description": "Weather polygon encompassing Luanda and surrounding Angolan cities"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [12.5, -8.0],
+          [16.5, -8.0],
+          [16.5, -13.5],
+          [12.5, -13.5],
+          [12.5, -8.0]
+        ]]
+      }
+    }
+  ]
+}
